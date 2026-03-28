@@ -3,7 +3,7 @@ title: O Google apresenta o Stitch e o "vibe design"
 author: Eliane Orlandin
 pubDatetime: 2026-03-28T10:00:00Z
 slug: google-stitch-ai-ui-design
-featured: false
+featured: true
 draft: false
 tags:
   - IA
