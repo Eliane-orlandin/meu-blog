@@ -44,15 +44,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       <p>
         Bem-vindos ao meu blog! Aqui compartilho meus estudos, descobertas em tecnologia e minha jornada como desenvolvedora. É um espaço dedicado a notícias e conteúdos selecionados, explicados de forma simples e direta, sempre com referências às fontes para quem deseja aprender e se aprofundar.
       </p>
-      <p class="mt-2">
-        Read the blog posts or check
-        <LinkButton
-          class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p>
+
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
@@ -73,7 +65,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
             { "border-b border-border": recentPosts.length > 0 },
           ]}
         >
-          <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">Destaques</h2>
           <ul>
             {featuredPosts.map(data => (
               <Card variant="h3" {...data} />
@@ -86,7 +78,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">Últimas publicações</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>

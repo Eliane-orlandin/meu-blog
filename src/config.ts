@@ -3,7 +3,7 @@ export const SITE = {
   author: "Eliane Orlandin",
   profile: "https://github.com/Eliane-orlandin",
   desc: "Blog de tecnologia com notícias selecionadas, explicadas de forma simples e direta, sempre com referência à fonte.",
-  title: "Eliane's Blog",
+  title: "Blog da Li",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
