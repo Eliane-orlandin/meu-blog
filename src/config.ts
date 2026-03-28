@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://eliane-orlandin.github.io/meu-blog/",
+  website: "https://eliane-orlandin.github.io/",
   author: "Eliane Orlandin",
   profile: "https://github.com/Eliane-orlandin",
   desc: "Blog de tecnologia com notícias selecionadas, explicadas de forma simples e direta, sempre com referência à fonte.",
