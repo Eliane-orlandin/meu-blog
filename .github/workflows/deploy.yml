@@ -23,6 +23,7 @@ jobs:
         with:
           # path: . # Caso seu projeto esteja na raiz, mantenha assim.
           node-version: 20 # Versão do Node estável
+          package-manager: npm
 
   deploy:
     needs: build
