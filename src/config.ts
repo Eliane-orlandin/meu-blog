@@ -10,14 +10,14 @@ export const SITE = {
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
-  showBackButton: true, 
+  showBackButton: true,
   editPost: {
     enabled: true,
     text: "Sugerir edição",
     url: "https://github.com/Eliane-orlandin/meu-blog/edit/main/",
   },
   dynamicOgImage: true,
-  dir: "ltr", 
-  lang: "pt-BR", 
-  timezone: "America/Sao_Paulo", 
+  dir: "ltr",
+  lang: "pt-BR",
+  timezone: "America/Sao_Paulo",
 } as const;
