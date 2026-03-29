@@ -7,6 +7,7 @@ Um blog e laboratório prático criado para explorar novas ferramentas do mercad
 ## 🎯 Sobre o Projeto
 
 O principal objetivo deste repositório é servir como um ambiente de testes no mundo real. Através da construção e manutenção deste blog, eu exploro:
+
 - **Testes de Ferramentas e IA:** Avaliação na prática de agentes de código (ex: Jules) e assistentes de desenvolvimento.
 - **Notícias de Tecnologia:** Publicação de artigos sobre inovações, design (UI/UX) e inteligência artificial, sempre de forma simples, direta e com as fontes originais.
 - **Arquitetura Moderna:** Aplicação de conceitos de desenvolvimento web utilizando frameworks rápidos e eficientes.
@@ -18,7 +19,7 @@ O principal objetivo deste repositório é servir como um ambiente de testes no 
 - **Agentes de IA:** Uso de inteligência artificial (como o Jules) para auxiliar na criação de componentes e geração de conteúdo (Markdown).
 - **GitHub Actions:** CI/CD para automação dos deploys a cada nova atualização.
 
-*Este projeto foi customizado a partir do tema base [AstroPaper](https://github.com/satnaing/astro-paper).*
+_Este projeto foi customizado a partir do tema base [AstroPaper](https://github.com/satnaing/astro-paper)._
 
 ## ⚙️ Como rodar o projeto localmente
 
@@ -36,3 +37,4 @@ npm install
 
 # Inicie o servidor local
 npm run dev
+```
