@@ -31,7 +31,7 @@ export const SOCIALS: Social[] = [
   },
   {
     name: "Mail",
-    href: "liorlandin33@gmail.com",
+    href: "mailto:liorlandin33@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
@@ -73,5 +73,11 @@ export const SHARE_LINKS: Social[] = [
     href: "mailto:?subject=See%20this%20post&body=",
     linkTitle: `Share this post via email`,
     icon: IconMail,
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/shareArticle?mini=true&url=",
+    linkTitle: `Share this post on LinkedIn`,
+    icon: IconLinkedin,
   },
 ] as const;
