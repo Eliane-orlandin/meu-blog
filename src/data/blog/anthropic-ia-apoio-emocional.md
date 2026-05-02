@@ -1,7 +1,7 @@
 ---
 title: "A IA como Apoio Emocional: O que a Anthropic descobriu"
 author: Eliane Orlandin
-pubDatetime: 2024-05-24T12:00:00Z
+pubDatetime: 2026-05-02T19:20:00Z
 slug: anthropic-ia-apoio-emocional
 featured: false
 draft: false
